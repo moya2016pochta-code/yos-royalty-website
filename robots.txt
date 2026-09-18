@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://yosroyalty.com/sitemap.xml
