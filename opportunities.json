@@ -1,0 +1,11 @@
+[
+  {
+    "status": "draft",
+    "category": "technician",
+    "title": "Replace with the posting title",
+    "location": "City, State",
+    "start": "Expected start date",
+    "description": "Describe the scope of work and how to respond.",
+    "requirements": "List required experience, tools or credentials."
+  }
+]
