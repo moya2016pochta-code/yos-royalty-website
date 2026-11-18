@@ -28,6 +28,13 @@ function makeListing(post) {
   apply.textContent = ['technician', 'sales'].includes(post.category) ? 'Apply by email' : 'Email about this opportunity';
   apply.href = 'mailto:info@yosroyalty.com?subject=' + encodeURIComponent('Careers inquiry: ' + post.title + ' - ' + post.location);
   card.append(apply);
+  if (post.details) {
+    const details = document.createElement('a');
+    details.className = 'btn';
+    details.href = post.details;
+    details.textContent = 'View job details';
+    card.append(' ', details);
+  }
   return card;
 }
 
