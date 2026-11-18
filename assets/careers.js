@@ -3,6 +3,7 @@ const status = document.querySelector('#listing-status');
 const listings = document.querySelector('#listings');
 const categories = {
   project: 'Open Projects',
+  sales: 'Sales',
   technician: 'Technicians',
   subcontractor: 'Subcontractors'
 };
@@ -24,8 +25,8 @@ function makeListing(post) {
   if (post.requirements) appendText(card, 'p', 'Requirements: ' + post.requirements);
   const apply = document.createElement('a');
   apply.className = 'btn dark';
-  apply.textContent = post.category === 'technician' ? 'Apply by email' : 'Email about this opportunity';
-  apply.href = 'mailto:info@yosroyalty.com?subject=' + encodeURIComponent('Careers inquiry: ' + post.title);
+  apply.textContent = ['technician', 'sales'].includes(post.category) ? 'Apply by email' : 'Email about this opportunity';
+  apply.href = 'mailto:info@yosroyalty.com?subject=' + encodeURIComponent('Careers inquiry: ' + post.title + ' - ' + post.location);
   card.append(apply);
   return card;
 }

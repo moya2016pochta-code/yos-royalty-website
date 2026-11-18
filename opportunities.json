@@ -1,5 +1,50 @@
 [
   {
+    "status": "open",
+    "category": "sales",
+    "title": "Door-to-Door Sales Representative",
+    "location": "Ohio",
+    "start": "",
+    "description": "Meet residents in assigned neighborhoods, explain available home internet plans, check service availability and help interested customers place orders.",
+    "requirements": "Comfortable with face-to-face outreach and field work. Residential telecom or direct sales experience is welcome."
+  },
+  {
+    "status": "open",
+    "category": "sales",
+    "title": "Door-to-Door Sales Representative",
+    "location": "Atlanta, GA",
+    "start": "",
+    "description": "Meet residents in assigned neighborhoods in the Atlanta area, explain available home internet plans and help interested households check eligibility and sign up.",
+    "requirements": "Comfortable starting conversations and working in the field. Residential telecom or direct sales experience is welcome."
+  },
+  {
+    "status": "open",
+    "category": "sales",
+    "title": "Event & Retail Sales Representative",
+    "location": "New York",
+    "start": "",
+    "description": "Represent home internet services at events and retail locations. Speak with visitors, explain plan options, check availability and help interested customers sign up.",
+    "requirements": "Comfortable engaging customers in person. Experience in retail, events or telecom sales is welcome."
+  },
+  {
+    "status": "open",
+    "category": "technician",
+    "title": "Fiber & Coax Installation Technician",
+    "location": "New York",
+    "start": "",
+    "description": "Install and activate residential fiber and coax internet service. Work includes routing cable, setting up customer equipment, testing service, troubleshooting and documenting completed jobs.",
+    "requirements": "Fiber, coax or related field experience is welcome. Tell us what equipment you have, whether you have a work vehicle and which areas you can cover."
+  },
+  {
+    "status": "open",
+    "category": "technician",
+    "title": "Fiber & Coax Installation Technician",
+    "location": "Maine, New Hampshire & Vermont",
+    "start": "",
+    "description": "Install and troubleshoot residential fiber and coax internet service on regional assignments. Work includes cable routing, equipment setup, service activation, signal testing and job documentation.",
+    "requirements": "Fiber, coax or related field experience is welcome. Include your home base, available markets, travel availability and whether you have a work vehicle and tools."
+  },
+  {
     "status": "draft",
     "category": "technician",
     "title": "Replace with the posting title",

@@ -30,7 +30,7 @@ IMPORTANT:
 
 MANAGING CAREERS POSTINGS
 1. Open opportunities.json in GitHub and click the pencil icon.
-2. Copy the template entry, keeping entries separated with commas. Fill in the title, location, start, description and requirements. Use project, technician or subcontractor for category. Start and requirements may be empty.
+2. Copy the template entry, keeping entries separated with commas. Fill in the title, location, start, description and requirements. Use project, sales, technician or subcontractor for category. Start and requirements may be empty.
 3. Set status to open and commit to the Pages publishing branch. Use closed to remove an announcement from the active list.
-4. Check careers.html after GitHub Pages deploys. The Apply link opens an email to info@yosroyalty.com with the listing title in the subject.
+4. Check careers.html after GitHub Pages deploys. The Apply link opens an email to info@yosroyalty.com with the listing title and location in the subject.
 Only put public information in this repository. Entries with draft or closed status are hidden on the Careers page, but the JSON file is public.
